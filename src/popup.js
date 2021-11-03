@@ -13,7 +13,7 @@ const PopUp = ({setDeleteFlag,deleteId,deleteTask,tasks,setTasks})=> {
             <div className="popup-message">
                 <h1>Do you want to delete the task ({deleteTask})?</h1>
                 <div className="btn-container">
-                <button className="btn" onClick={handleDelete}>yes</button>
+                <button className="btn red-btn" onClick={handleDelete}>yes</button>
                 <button className="btn" onClick={()=>{setDeleteFlag(false)}}>no</button>
                 </div>               
             </div>

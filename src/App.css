@@ -108,3 +108,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.red-btn {
+  background-color: rgb(177, 52, 52);
+}
